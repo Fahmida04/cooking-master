@@ -1,0 +1,37 @@
+
+.search-bar{
+    height: 40px;
+    border-radius: 50px;
+}
+.btn{
+    vertical-align: top !important;
+    color: whitesmoke !important; 
+}
+h2{
+    text-align: center;
+    color: sandybrown;
+}
+#food-container{
+    height: 500px;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+#food-container div div{
+    border: 2px solid saddlebrown;
+    padding: 20px;
+    text-align: center;
+}
+#food-container img, div img{
+    width: 250px;
+}
+#food-details{
+    font-size: 20px;
+}
+ul{
+    width: 400px;
+    margin: auto;
+    text-align: left;
+    list-style-type: none;
+}
